@@ -1,0 +1,7 @@
+def unpack_list(lst):
+    first = lst[0]
+    last = lst[-1]
+    middle = lst[1:-1]
+    print("first: {}, middle: {}, last: {}".format(first, middle, last))
+
+unpack_list(lst = [1, 2, 3, 4, 5, 6])
