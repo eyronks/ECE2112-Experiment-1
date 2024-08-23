@@ -1,0 +1,14 @@
+def emotify(s):
+    list = {
+        'smile': ':)',
+        'grin': ':D',
+        'sad': ':(',
+        'mad': '>:(',
+    }
+
+    for word, emoticon in list.items():
+        s = s.replace(word, emoticon)
+
+    return s
+
+print(emotify("Make me smile"))
