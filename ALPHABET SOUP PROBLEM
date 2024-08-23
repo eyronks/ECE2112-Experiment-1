@@ -1,0 +1,4 @@
+def alphabet_soup(s):
+    return ("".join(sorted(s)))
+
+alphabet_soup("hacker")
