@@ -5,6 +5,7 @@ This repository contains Python scripts for solving various programming problems
 
 ### 1. Alphabet Soup Problem
 
+**Instructions:** Create a function that takes a string and returns a string with its letters in alphabetical order.
 
 **Function:**
 ```python
@@ -20,6 +21,7 @@ alphabet_soup("hacker")
 
 ### 2. Emoticon Problem
 
+**Instructions:** Create a function that changes specific words into emoticons. Given a sentence as a string, replace the words smile, grin, sad and mad with their corresponding emoticon.
 
 **Function:**
 ```python
@@ -41,6 +43,7 @@ print(emotify("Make me smile"))
 
 ### 3. Unpacking List Problem
 
+**Instructions:** Unpack the list writeyourcodehere into three variables, being first, middle, and last, with middle being everything in between the first and last element. Then print all three variables.
 
 **Function:**
 ```python
